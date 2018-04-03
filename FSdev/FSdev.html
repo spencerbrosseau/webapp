@@ -9,19 +9,34 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1><span id="road">Road</span>map</h1>
-                <ul>
-                    <li class="nav"><a href="#jump-to-html">HTML</a></li>
-                    <li class="nav"><a href="#jump-to-css">CSS</li>
-                    <li class="nav"><a href="#jump-to-js">JS</li>
-                    <li class="nav"><a href="#jump-to-backend">BACKEND</li>
-                    <li class="nav"><a href="#jump-to-database">DATABASE</li>
-                    <li class="nav"><a href="#jump-to-appArch">ARCHITECTURE</li>
-                    <li class="nav"><a href="#jump-to-alg">ALGORITHMS</li>
-                </ul>
-        </div>
+        <nav class="navbar">
+                <span class="open-slide">
+                  <a href="#" onclick="openSlideMenu()">
+                    <svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+                    </svg>
+                  </a>
+                </span>
+        <header>             
+                <div class="container">
+                    <div id="branding">
+                        <h1><span class="highlight">ROAD</span> MAP</h1>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li class="current" a href="#jump-to-html">HTML</li>
+                            <li class="current" a href="#jump-to-css">CSS</li>
+                            <li class="current" a href="#jump-to-js">JS</li>
+                            <li class="current" a href="#jump-to-backend">BACKEND</li>
+                            <li class="current" a href="#jump-to-database">DATABASES</li>
+                            <li class="current" a href="#jump-to-appArch">ARCHITECTURE</li>
+                            <li class="current" a href="jump-to-alg">ALGORITHMS</li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
         <section class="htmlStuff">
             <h1 id="jump-to-html">
                 HTML
@@ -59,8 +74,5 @@
                 </h1> 
         </section>
 
-
-
-    </div>
 </body>
 </html>
